@@ -1,0 +1,20 @@
+[
+  {
+    "file": "v15-phone-shizuku-ready.png",
+    "captured_date": "2026-10-25",
+    "width": 1260,
+    "height": 2800,
+    "sha256": "60f9741f877f60369f8ad264728c240bee6d0870230cbde84bbb198e70ecee20",
+    "context": "v15 phone UI with Shizuku ready",
+    "edited": false
+  },
+  {
+    "file": "v13-car-fanqie-cold-start.png",
+    "captured_date": "2026-10-25",
+    "width": 3283,
+    "height": 1746,
+    "sha256": "ef6bc6c4409832c0cc071aec34400b8c8de84e3f76e0b633c75091b5c849f35d",
+    "context": "Historical v13 native icon path, cold start",
+    "edited": false
+  }
+]

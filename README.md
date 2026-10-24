@@ -32,6 +32,18 @@
 
 授权及后台服务准备可以在未连车时完成。连接车机之后，才执行目标应用的上屏启动。最近使用排序另外需要系统的使用情况访问权限。
 
+## 实际截图
+
+v15 手机端实际界面，Shizuku 服务和守护进程已就绪:
+
+<img src="docs/images/v15-phone-shizuku-ready.png" alt="v15 手机端界面与 Shizuku 服务状态" width="320">
+
+v13 番茄冷启动车载画面，底部导航位于 dock 上方:
+
+![v13 番茄车载冷启动历史截图](docs/images/v13-car-fanqie-cold-start.png)
+
+车载截图属于已停用的 v13 原生图标点击路径，不代表 v15 直接启动已经完成安全区或按需全屏验收。详见 [截图与版本说明](docs/SCREENSHOTS.md)。
+
 ## 构建
 
 本项目保留当前手工 Android 构建方式，尚未迁移 Gradle。需要 JDK 17、Python 3.9+、Android SDK Platform 34 和 Build Tools 34。依赖从 Maven Central 获取并校验 SHA-256。
@@ -50,6 +62,7 @@ python3 scripts/build.py --sdk "$ANDROID_SDK_ROOT"
 - [当前状态与验证边界](docs/STATUS.md)
 - [结构与调用关系](docs/ARCHITECTURE.md)
 - [研究记录](docs/RESEARCH.md)
+- [实际截图与版本说明](docs/SCREENSHOTS.md)
 - [构建与部署](docs/BUILD.md)
 - [第三方依赖说明](third_party/NOTICE.md)
 
