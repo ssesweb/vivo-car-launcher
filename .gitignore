@@ -1,0 +1,16 @@
+build/
+.local/
+__pycache__/
+*.pyc
+*.apk
+*.aar
+*.jar
+*.dex
+*.class
+*.keystore
+*.jks
+*.idsig
+.env
+.env.*
+!.env.example
+.DS_Store
